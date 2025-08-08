@@ -1,0 +1,125 @@
+/* CONTENT ON THE RIGHT OF THE SIDEBAR */
+
+.content-wrapper{
+    width:80%;
+    position: fixed;
+    right: 0;
+    background: hsl(342, 65%, 89%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* END OF THE CONTENT WRAPPER */
+
+/* HORIZONTAL WRAPPER IN THE CENTER */
+
+.horizontal-wrapper{
+    width: 99%;
+    height: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: hsla(342, 65%, 59%, .3);
+    /* margin-bottom: -20px; */
+}
+/* END OF HORIZONTAL WRAPPER */
+
+/* CENTER WRAPPER */
+.center-wrapper{
+    width:80%;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+    scrollbar-color: hsla(342, 65%, 70%, .9) hsla(342, 65%, 70%, .1);
+}
+.center-wrapper h3{
+    font-size: 28px;
+    color: hsl(342, 65%, 40%) ;
+    padding: 20px 20px 0px 25px;
+}
+
+/* END OF CENTER WRAPPER */
+
+/* RIGHT VERTICAL WRAPPER */
+.right-vertical-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    background: hsla(342, 65%, 60%, .3);
+    border-radius: 10px;
+}
+.right-vertical-wrapper h3{
+    font-size: 28px;
+    color: hsl(342, 65%, 40%) ;
+    padding: 5px 5px 0px 25px;
+}
+/* END OF RIGHT VERTICAL WRAPPER */
+
+/* VERTICAL WRAPPER IN THE CENTER BOTTOM PART */
+.vertical-wrapper{
+    width: 99%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: hsla(342, 65%, 59%, .3);
+}
+/* END OF VERTICAL WRAPPER */
+
+
+/* BODY WRAPPER */
+.body-wrapper{
+    position: relative;
+    top: 70px;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+}
+
+/* END OF BODY WRAPPER */
+
+
+
+/* LOWER CENTER WRAPPER */
+
+.lower-center-wrapper{
+    position: relative;
+    background: red;
+    width: 49.5%;
+    height: 100vh;
+    margin: .5%;
+    border-radius: 10px; 
+}
+
+/* END OF THE LOWER CENTER WRAPPER */
+.lower-right-wrapper{
+    position: relative;
+    background: blue;
+    width: 49.5%;
+    height: 100vh;
+    margin: .5%;
+    border-radius: 10px;
+    right: 0; 
+}
+
+/* END OF LOWER RIGHT WRAPPER */
+
+/* LOWER WRAPPER */
+.lower-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: yellow;
+    width: 99%;
+    margin: .5%;
+    height: 100vh;
+    border-radius: 10px;
+
+}
+
+/* END OF LOWER WRAPPER */

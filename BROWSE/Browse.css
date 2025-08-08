@@ -1,0 +1,246 @@
+
+/* BROWSE */
+
+/* SIDEBAR MODIFICATION */
+/* .sidebar-browse{
+    font-weight: bold;
+    text-decoration: underline;
+} */
+
+.sidebar-songs{
+  font-weight: normal; 
+  text-decoration: none;
+}
+/* END OF SIDEBAR MODIFICATION */
+
+/* .main-content{
+    width:80%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    background: hsl(342, 65%, 89%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow:0 4px 20px hsla(0, 0%, 1%, 0.3) ;
+}
+
+.music-sggstn{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 7%;
+    width: 20%;
+    height: 100vh;
+    background: hsla(342, 65%, 60%, .3);
+    border-radius: 10px;
+}
+
+.music-sggstn-cont{
+    position: relative;
+    margin-left: 20px;
+    background: hsla(342, 65%, 90%, .2);
+    border-radius: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    
+
+}
+
+.music-sggstn h3{
+    align-self: center;
+    font-size: 28px;
+    color: hsl(342, 65%, 40%) ;
+    margin: 20px;
+    
+}
+
+.music-sggstn-cont button{
+    background: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    padding-right: 55px;
+    border-width: 0;
+    color: hsl(342, 65%, 40%);
+    box-shadow:0 3px 15px hsla(0, 0%, 1%, 0.1);
+
+}
+
+.music-sggstn-cont button:hover{
+    box-shadow:0 3px 15px hsla(0, 0%, 1%, 0.3);
+
+}
+
+.music-sggstn-cont button #sggstd-song-title-song-title{
+    font-size: 25px;
+    
+}
+.music-sggstn-cont button #sggstd-song-artist{
+    font-size: 18px;
+}
+
+.sggstd-song-info{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.browse-artist-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 5px;;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow:0 4px 20px hsla(0, 0%, 1%, .15);
+
+}
+
+.browse-artist-card:hover{
+    box-shadow:0 4px 20px hsla(0, 0%, 1%, .35);
+    
+}
+
+.browse-artist-card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 75px;
+
+}
+.browse-artist-card p{
+    font-size: 22px;
+    margin: 0;
+
+}
+
+.browse-popular-artist{
+    width: 99%;
+    height: 45%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: hsla(342, 65%, 59%, .3);
+}
+
+
+.browse-cont h3{
+    font-size: 28px;
+    color: hsl(342, 65%, 40%) ;
+    margin: 25px;
+}
+.popular-artist{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 97%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-y: auto;
+    scrollbar-width:none;
+    gap: 25px;
+    justify-content: center;
+    background: hsla(342, 65%, 88%, .2);
+    
+}
+
+
+
+.browse-song-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width: 97%;
+    font-size: 23px;
+    padding: 10px;
+    box-shadow:0 3px 15px hsla(0, 0%, 1%, 0.1);
+}
+
+.browse-song-card:hover{
+    box-shadow:0 3px 15px hsla(0, 0%, 1%, 0.3);
+
+}
+
+.browse-song-card span{
+    position: relative;
+    width: 25%;
+}
+
+.browse-song-card button{
+    font-size: 20px;
+    background: transparent;
+    color: hsl(342, 65%, 40%);
+    border-width: 0;
+    margin-right: 20px;
+}
+
+.browse-cont{
+    width:80%;
+    height: 100vh;
+    position: relative;
+    top: 7%;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.recently-played{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 2px;
+    background: hsla(342, 65%, 88%, .2);
+    overflow-x: auto;
+    scrollbar-width: none;
+    border-radius: 10px;
+}
+
+.song-table-header{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 4.5%;
+    background: hsla(342, 65%, 88%, .2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.song-table-header span{
+    width: 25%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.browse-recently-played-cont{
+    width: 99%;
+    height: 100vh;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background: hsla(342, 65%, 59%, .3);
+} */
+
+/* END OF BROWSE */

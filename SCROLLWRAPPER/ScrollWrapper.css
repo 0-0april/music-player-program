@@ -1,0 +1,64 @@
+
+/* HORIZONTAL SCROLL WRAPPER */
+.horizontal-scroll-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow-x: auto;
+    scrollbar-color: hsla(342, 65%, 70%, .9) hsla(342, 65%, 70%, .1);
+    gap: 25px;
+    background: hsla(342, 65%, 88%, .2);
+    position: relative;
+}
+/* END OF HORIZONTAL SCROLL WRAPPER */
+
+/* VERTICAL SCROLL WRAPPER [CENTER PART]*/
+
+.vertical-scroll-wrapper{
+    width: 95%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 2px;
+    background: hsla(342, 65%, 88%, .2);
+    scrollbar-color: hsla(342, 65%, 70%, .9) hsla(342, 65%, 70%, .1);
+    border-radius: 10px;
+}
+/* END OF VERTICAL SCROLL WRAPPER */
+
+/* RIGHT VERTICAL SCROLL WRAPPER */
+
+.right-vertical-scroll-wrapper{
+    position: relative;
+    margin-left: 20px;
+    background: hsla(342, 65%, 90%, .2);
+    border-radius: 10px;
+    overflow-y: auto;
+    scrollbar-color: hsla(342, 65%, 70%, .9) hsla(342, 65%, 70%, .1);
+    bottom: 2%;
+    height: 80%;
+    top: 0;
+}
+/* END OF RIGHT VERTICAL SCROLL WRAPPER */
+
+/* CONTENT SCROLL WRAPPER */
+.content-scroll-wrapper{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-color: hsla(342, 65%, 70%, .9) hsla(342, 65%, 70%, .1);
+}
+.content-scroll-wrapper h3{
+    font-size: 28px;
+    color: hsl(342, 65%, 40%) ;
+    padding: 20px 20px 0px 25px;
+}
+/* END OF CONTENT SCROLL WRAPPER */
+

@@ -1,0 +1,84 @@
+
+/* SIDEBAR */
+
+.sidebar{
+    width: 21%;
+    height: 100vh;
+    position:fixed;
+    left: 0;
+    background: hsl(342, 65%, 40%) ;
+    color: hsl(342, 65%, 90%);
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+/* LOGO CONTAINTER */
+
+.logo-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.sidebar h1{
+    font-size: 40px;
+}
+
+/* SIDEBAR CHOICES 
+[This is divs containing library, your music, and settings] */
+
+.sidebar .sidebar-choices{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+
+}
+
+.sidebar .sidebar-choices h4{
+    font-size: 28px;
+    margin: 10px;
+
+}
+/* END OF SIDEBAR CHOICES */
+
+/* SIDEBAR BUTTONS */
+.sidebar .sidebar-btn{
+    background: transparent;
+    text-decoration: none;
+    border-width: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 26px;
+    color: hsl(342, 65%, 90%);
+    transition: color 0.3s ease-in-out;
+
+}
+
+.sidebar .sidebar-choices .sidebar-btn:hover{
+    color: hsl(342, 65%, 68%);
+
+}
+
+/* END OF SIDEBAR BUTTON */
+
+/* SIDEBAR SETTINGS */
+.sidebar .sidebar-setting{
+    position: absolute;
+    bottom: 7%;
+} 
+/* END OF SIDEBAR SETTING */
+
+
+/* END OF THE SIDEBAR */

@@ -1,0 +1,44 @@
+
+/* MUSIC SUGGESTION BUTTONS 
+[CAN BE SEEN IN THE RIGHT VERTICAL WRAPPER] */
+.sggstd-song-btn{
+    width: 100%;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    padding-right: 55px;
+    border-width: 0;
+    color: hsl(342, 65%, 40%);
+    box-shadow: 0 8px 110px hsla(0, 0%, 1%, 0.1);
+    margin-bottom: 5px;
+    transition: box-shadow 0.2s ease-out;
+
+}
+.sggstd-song-btn:hover{
+    box-shadow:0 3px 15px hsla(0, 0%, 1%, 0.3);
+
+}
+.sggstd-song-title{
+    font-size: 25px;
+    
+}
+.sggstd-song-artist{
+    font-size: 18px;
+}
+.sggstd-song-info{
+    display: flex;
+    flex-direction: column;
+}
+.sggstd-song-btn img{
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    box-shadow:0 4px 20px hsla(0, 0%, 1%, 0.3) ;
+}
+
+/* END OF MUSIC SUGGESTION BUTTON */
+
