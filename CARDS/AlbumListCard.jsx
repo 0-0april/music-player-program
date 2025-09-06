@@ -7,7 +7,6 @@ function AlbumListCard(){
         <div className="album-list-card">
             <img src={musicbg} alt="album img" />
             <AlbumListCardDescrip/>
-
         </div>
     );
 }
