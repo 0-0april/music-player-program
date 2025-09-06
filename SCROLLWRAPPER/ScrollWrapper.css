@@ -22,7 +22,9 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     background: hsla(342, 65%, 88%, .2);
     scrollbar-color: hsla(342, 65%, 70%, .9) hsla(342, 65%, 70%, .1);
     border-radius: 10px;
@@ -62,3 +64,36 @@
 }
 /* END OF CONTENT SCROLL WRAPPER */
 
+
+/* ALBUM VERTICAL SCROLL WRAPPER */
+.album-vertical-scroll-wrapper{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    height: 60vh; /* fixed height to allow vertical scroll */
+    background: none;
+    border-radius: 10px;
+    overflow-y: auto; /* enables vertical scrolling */
+    scrollbar-color: hsla(342, 65%, 70%, 0.9) hsla(342, 65%, 70%, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+    background: hsla(342, 65%, 70%, 0.1);
+    border-radius: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: hsla(342, 65%, 70%, 0.9);
+    border-radius: 10px;
+}
+/* ALBUM VERTICAL SCROLL WRAPPER */

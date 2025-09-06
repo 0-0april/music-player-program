@@ -1,10 +1,10 @@
 //YOU CAN FIND THIS WRAPPER IN ALBUMS TAB
 
-import  './Wrapper.css'
+import './Wrapper.css'
 
 function LowerCenterWrapper({children}){
     return(
-        <div className='lower-center-wrapper'>
+        <div className="lower-center-wrapper">
             {children}
         </div>
     );

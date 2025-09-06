@@ -1,16 +1,23 @@
 import './Albums.css'
-import VerticalScrollWrapper from '../SCROLLWRAPPER/VerticalScrollWrapper.jsx'
+import AlbumVerticalScrollWrapper from '../SCROLLWRAPPER/AlbumVerticalScrollWrapper.jsx'
 import AlbumListCard from '../CARDS/AlbumListCard.jsx'
 
 function RecentlyPlayedAlbums(){
 
     return(
 
-        <VerticalScrollWrapper>
+        <AlbumVerticalScrollWrapper>
             
             <AlbumListCard/>
+            <AlbumListCard/>
+            <AlbumListCard/>
+            <AlbumListCard/>
+            <AlbumListCard/>
+            <AlbumListCard/>
+            <AlbumListCard/>
+            <AlbumListCard/>
             
-        </VerticalScrollWrapper>
+        </AlbumVerticalScrollWrapper>
     );
 
 }

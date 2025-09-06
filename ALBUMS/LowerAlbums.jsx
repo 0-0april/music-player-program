@@ -6,8 +6,8 @@ function LowerAlbums(){
 
     return(
         <LowerWrapper>
-            <LowerRightWrapper/>
             <RecentlyPlayedAlbumsCont/>
+            <LowerRightWrapper/>
         </LowerWrapper>
 
     );

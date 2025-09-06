@@ -6,6 +6,7 @@ function RecentlyPlayedAlbumsCont(){
 
     return(
         <LowerCenterWrapper>
+            <h3>Recently Played Albums</h3>
             <RecentlyPlayedAlbums/>
 
         </LowerCenterWrapper>
